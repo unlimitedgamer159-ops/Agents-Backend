@@ -147,7 +147,7 @@ export default {
 // AI call — primary model with fallback (mirrors index.js pattern)
 // ─────────────────────────────────────────────────────────────────────────────
 async function callAI(apiKey, messages) {
-  const url = "https://api.k2think.ai/v1/chat/completions";
+  const url = "https://build-api.k2think.ai/v1/chat/completions";
   const headers = {
     "Authorization": `Bearer ${apiKey.trim()}`,
     "Content-Type": "application/json",
