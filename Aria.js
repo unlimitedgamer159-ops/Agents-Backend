@@ -305,7 +305,7 @@ function stripReasoning(raw) {
 // ─────────────────────────────────────────
 
 async function callAI(apiKey, systemPrompt, history, userQuery) {
-  const url = "https://api.k2think.ai/v1/chat/completions";
+  const url = "https://build-api.k2think.ai/v1/chat/completions";
   const headers = {
     Authorization: `Bearer ${apiKey.trim()}`,
     "Content-Type": "application/json",
